@@ -1,0 +1,24 @@
+div {
+    border-radius: 0.6rem;
+}
+
+.pattern {
+    /* background-image: url(../../../../public/assets/images/bg-pattern-quotation.svg); */
+    /* width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat; */
+}
+
+.imgPerson{
+    width: 3rem;
+    /* border-radius: 50%; */
+    border-width: 0.15rem;
+}
+
+.name, .title, .descript {
+    font-family: "Barlow Semi Condensed-semi";
+}
+
+.title {
+    font-size: x-large;
+}

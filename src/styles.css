@@ -3,14 +3,14 @@
 @import 'tailwindcss';
 
 @font-face {
-    font-family: "Barlow Semi Condensed";
+    font-family: "Barlow Semi Condensed-medium";
     font-weight: 500;
     font-size: normal;
     src: url("../public/assets/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf");
 }
 
 @font-face {
-    font-family: "Barlow Semi Condensed";
+    font-family: "Barlow Semi Condensed-semi";
     font-weight: 600;
     font-size: normal;
     src: url("../public/assets/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-SemiBold.ttf");
@@ -23,12 +23,18 @@
 
     --color-white: hsl(0, 0%, 100%);
 
-    --color-grey10: hsl(214, 17%, 92%);
-    --color-grey20: hsl(0, 0%, 81%);
+    --color-grey100: hsl(214, 17%, 92%);
+    --color-grey200: hsl(0, 0%, 81%);
     --color-grey400: hsl(224, 10%, 45%);
     --color-grey500: hsl(217, 19%, 35%);
 
     --color-darkblue: hsl(219, 29%, 14%);
 
     --color-black: hsl(0, 0%, 7%);
+}
+
+body {
+    background-color: var(--color-grey100);
+    color: var(--color-white);
+    font-family: url(../public/assets/fonts/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
 }
