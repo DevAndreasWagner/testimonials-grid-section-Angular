@@ -1,11 +1,11 @@
-<div class=" flex flex-col md:row-span-1 md:col-span-2 bg-purple500 p-6 static w-full h-full">
-    <img class="pattern hidden sm:block absolute top-0 right-16  w-20 h-auto" [src]="cards[0].imgPattern" alt="">
+<div class="container flex flex-col md:col-span-4 xl:col-span-2 bg-purple500 p-6 static w-full h-full ">
+    <img class="pattern hidden lg:block absolute top-[4%] left-[40%] w-20 h-auto" [src]="cards[0].imgPattern" alt="">
     <section class="flex flex-col gap-4">
-        <div class="flex gap-4">
+        <div class="flex items-center gap-4">
             <img class="imgPerson rounded-full border-purple300" [src]="cards[0].imgSrc" alt="">
-            <span class=" text-purple50">
-                <p class="name">{{cards[0].name}}</p>
-                <p class="type">{{cards[0].type}}</p>
+            <span class=" ">
+                <p class="name text-purple50">{{cards[0].name}}</p>
+                <p class="type text-purple300">{{cards[0].type}}</p>
             </span>
         </div>
 
@@ -16,70 +16,70 @@
     </section>
 </div>
 
-<div class=" flex flex-col bg-purple500 p-6 static w-full h-full">
+<div class="container flex flex-col md:col-span-2 xl:row-span-1 xl:col-span-1 bg-grey500 p-6 static w-full h-full">
     <section class="flex flex-col gap-4">
-        <div class="flex gap-4">
-            <img class="imgPerson rounded-full border-purple300" [src]="cards[1].imgSrc" alt="">
-            <span class=" text-purple50">
-                <p class="name">{{cards[1].name}}</p>
-                <p class="type">{{cards[1].type}}</p>
+        <div class="flex items-center gap-4">
+            <img class="imgPerson rounded-full border-grey200" [src]="cards[1].imgSrc" alt="">
+            <span class=" ">
+                <p class="name text-grey100">{{cards[1].name}}</p>
+                <p class="type text-grey200">{{cards[1].type}}</p>
             </span>
         </div>
 
         <span class="flex flex-col gap-4">
-            <p class="title text-purple50">{{cards[1].title}}</p>
-            <p class="descript text-purple300">{{cards[1].description}}</p>
+            <p class="title text-grey100">{{cards[1].title}}</p>
+            <p class="descript text-grey200">{{cards[1].description}}</p>
         </span>
     </section>
 </div>
 
-<div class=" flex flex-col md:row-span-1 md:col-span-2 bg-purple500 p-6 static w-full h-full">
+<div class="container flex flex-col md:col-span-2 xl:col-span-1 bg-white p-6 static w-full h-full">
     <section class="flex flex-col gap-4">
-        <div class="flex gap-4">
-            <img class="imgPerson rounded-full border-purple300" [src]="cards[2].imgSrc" alt="">
-            <span class=" text-purple50">
-                <p class="name">{{cards[2].name}}</p>
-                <p class="type">{{cards[2].type}}</p>
+        <div class="flex items-center gap-4">
+            <img class="imgPerson rounded-full border-grey200" [src]="cards[2].imgSrc" alt="">
+            <span class=" ">
+                <p class="name text-grey500">{{cards[2].name}}</p>
+                <p class="type text-grey400">{{cards[2].type}}</p>
             </span>
         </div>
 
         <span class="flex flex-col gap-4">
-            <p class="title text-purple50">{{cards[2].title}}</p>
-            <p class="descript text-purple300">{{cards[2].description}}</p>
+            <p class="title text-grey500">{{cards[2].title}}</p>
+            <p class="descript text-grey400">{{cards[2].description}}</p>
         </span>
     </section>
 </div>
 
-<div class=" flex flex-col bg-purple500 p-6 static w-full h-full">
+<div class="container flex flex-col md:col-span-4 xl:col-span-2 bg-darkblue p-6 static w-full h-full">
     <section class="flex flex-col gap-4">
-        <div class="flex gap-4">
-            <img class="imgPerson rounded-full border-purple300" [src]="cards[3].imgSrc" alt="">
-            <span class=" text-purple50">
+        <div class="flex items-center gap-4">
+            <img class="imgPerson rounded-full border-purple500" [src]="cards[3].imgSrc" alt="">
+            <span class=" text-grey200">
                 <p class="name">{{cards[3].name}}</p>
                 <p class="type">{{cards[3].type}}</p>
             </span>
         </div>
 
         <span class="flex flex-col gap-4">
-            <p class="title text-purple50">{{cards[3].title}}</p>
-            <p class="descript text-purple300">{{cards[3].description}}</p>
+            <p class="title text-grey200">{{cards[3].title}}</p>
+            <p class="descript text-grey200">{{cards[3].description}}</p>
         </span>
     </section>
 </div>
 
-<div class=" flex flex-col md:col-span-1 md:row-span-4 bg-purple500 p-6 static w-full h-full">
+<div class="container flex flex-col md:col-span-4 xl:col-start-4 xl:col-end-5 xl:row-start-1 xl:row-end-3 bg-white p-6 static w-full h-full">
     <section class="flex flex-col gap-4">
-        <div class="flex gap-4">
-            <img class="imgPerson rounded-full border-purple300" [src]="cards[4].imgSrc" alt="">
-            <span class=" text-purple50">
+        <div class="flex items-center gap-4">
+            <img class="imgPerson rounded-full border-grey200" [src]="cards[4].imgSrc" alt="">
+            <span class=" text-grey400">
                 <p class="name">{{cards[4].name}}</p>
                 <p class="type">{{cards[4].type}}</p>
             </span>
         </div>
 
         <span class="flex flex-col gap-4">
-            <p class="title text-purple50">{{cards[4].title}}</p>
-            <p class="descript text-purple300">{{cards[4].description}}</p>
+            <p class="title text-grey500">{{cards[4].title}}</p>
+            <p class="descript text-grey400">{{cards[4].description}}</p>
         </span>
     </section>
 </div>

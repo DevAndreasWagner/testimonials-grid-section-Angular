@@ -2,16 +2,13 @@ div {
     border-radius: 0.6rem;
 }
 
-.pattern {
-    /* background-image: url(../../../../public/assets/images/bg-pattern-quotation.svg); */
-    /* width: 10rem;
-    height: 10rem;
-    background-repeat: no-repeat; */
+.container {
+    box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.200);
 }
 
 .imgPerson{
-    width: 3rem;
-    /* border-radius: 50%; */
+    width: 2rem;
+    height: 2rem;
     border-width: 0.15rem;
 }
 
